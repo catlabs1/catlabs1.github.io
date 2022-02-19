@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Время учиться</title>
+  </head>
+  <body>
+   <div class="wrapper">
+    <nav>
+	<div class="nav-mobile">
+		<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+	<span class="nav-logo-text">EGEWORLD</span>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">Главная</a></li>
+			<li><a class="menu__item" href="#">Курсы</a></li>
+			<li><a class="menu__item" href="#">Учителя</a></li>
+			<li><a class="menu__item" href="#">О нас</a></li>
+    </ul>
+  </div>
+  </div>
+	  <div class="container-nav">
+      <a href="#"><img class="logo" src="img/logo.svg" alt="логотип" /></a>
+      <a href="#" class="menu-btn">Главная</a>
+      <a href="#" class="menu-btn">Курсы</a>
+      <a href="#" class="menu-btn">Учителя</a>
+      <a href="#" class="menu-btn menu-btn1">О нас</a>
+      <a href="#" class="auth log-in">Войти</a>
+      <a href="#" class="auth reg">Регистрация</a>
+	  </div>
+    </nav>
+    <header>
+		<div class="head-info">
+			<p>Разве тебя <br />не волнует <br>твоё будущее?</p>
+			<a href="#" class="promo-btn">Конечно, волнует!</a>
+		</div>
+		<picture>
+		<source media="(max-width: 480px)" srcset="img/time-mobile.svg">
+ 
+		<img src="img/oc-time-flies.svg" alt="Часы">
+		</picture>
+    </header>
+	<img class="scroll" src="img/mouse.png">
+    <main>
+	<div class="container">
+      <section class="promo">
+      <p class="main-head-text">Что вас ждёт?</p>
+      <!--  1 карточка -->
+      <div class="what-block">
+        <img class="what-img" src="img\what_block\world-edu.svg" alt="Фото" />
+          <div class="what-text-header">
+            <span class="what-chislo-text">01.</span>
+              <div class="what-text-block">
+                <span class="what-head-text">Погружение в мир знаний.</span>
+                <span class="what-main-text">
+                  Вас ждёт увлекательное пушествие в мир знаний, где каждый сможет
+                  подчерпнуть для себя что-то новое и закрепить знания на практике.
+                </span>
+            </div>
+          </div>
+        </div>
+      <!--  2 карточка -->
+      <div class="what-block">
+        <img class="what-img-special" src="img\what_block\web-with-teacher.svg" alt="Фото2" />
+          <div class="what-text-header">
+            <span class="what-chislo-text">02.</span>
+              <div class="what-text-block">
+                <span class="what-head-text">Вебинары с учителем.</span>
+                <span class="what-main-text what-main-text-special">
+                  Сами уроки будут проходить в виде вебинаров, где вы сможете 
+                  контактировать с учителем, задавая вопросы, и узнавать 
+                  новую информацию.
+                </span>
+                <a href="#" class="help-btn">Как устроены уроки ></a>
+            </div>
+          </div>
+        </div>
+      <!--  3 карточка -->
+      <div class="what-block">
+        <img class="what-img" src="img\what_block\homework.svg" alt="Фото3" />
+          <div class="what-text-header">
+            <span class="what-chislo-text">03.</span>
+              <div class="what-text-block">
+                <span class="what-head-text">Домашние работы. </span>
+                <span class="what-main-text">
+                  После каждого вебинара вас будут ждать на платформе домашние задания, 
+                  у которых есть определённый срок до которого их нужно выполнить.
+                </span>
+            </div>
+          </div>
+        </div>
+      <!--  4 карточка костыль через пробелы-->
+      <div class="what-block">
+        <img class="what-img-special" src="img\what_block\system-xp.svg" alt="Фото4" />
+          <div class="what-text-header">
+            <span class="what-chislo-text">04.</span>
+              <div class="what-text-block">
+                <span class="what-head-text">Система XP. </span>
+                <span class="what-main-text what-main-text-special">
+                  Немножко геймификации. 
+                  Она поможет вам не забросить курс на первых порах.
+                </span>
+                <a href="#" class="help-btn">Узнать подробнее ></a>
+            </div>
+          </div>
+        </div>
+      <!--  5 карточка -->
+      <div class="what-block">
+        <img class="what-img" src="img\what_block\lk-platform.svg" alt="Фото5" />
+          <div class="what-text-header">
+            <span class="what-chislo-text">05.</span>
+              <div class="what-text-block">
+                <span class="what-head-text">Простота использования.</span>
+                <span class="what-main-text">
+                  Внутри вас ждёт удобная платформа с которой приятно взаимодействовать.
+                </span>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+    <!--  -->
+    <section class="predmet">
+      <p class="predmet-head-text">Выберите нужный вам предмет</p>
+      <div class="predmet-block">
+		<div class="card">
+			<div class="incard">
+				<img src="img/rusege.png">
+			</div>
+			<div class="card-text-main">Русский язык</div>
+			<div class="card-text">Подготовка к ЕГЭ</div>
+			<a href="#" class="btn-predmet">Подробнее</a>
+		</div>
+		<div class="card">
+			<div class="incard">
+				<img src="img/infege.png">
+			</div>
+			<div class="card-text-main">Информатика</div>
+			<div class="card-text">Подготовка к ЕГЭ</div>
+			<a href="#" class="btn-predmet">Подробнее</a>
+		</div>
+		<div class="card">
+			<div class="incard">
+				<img src="img/rusoge.png">
+			</div>
+			<div class="card-text-main">Русский язык</div>
+			<div class="card-text">Подготовка к ОГЭ</div>
+			<a href="#" class="btn-predmet">Подробнее</a>
+		</div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="education">
+      <p class="main-head-text-edu">О нашем формате обучения</p>
+      <div class="education-block">
+        <p class="text-head">Всё это вместе приблизит тебя к твоей сотке</p>
+		<p class="text-main">В этом курсе мы собрали всё самое необходимое. Всё, что от тебя потребуется
+						это только гаджет, интернет и желание учиться. Если собрать все компоненты 
+						воедино, то поговаривают, что после этого экзамен нельзя не написать на
+						высокие баллы. Прошлые ученики тому доказательство.
+		</p>
+		<div class="format-edu">
+			<div class="card1">
+				<div class="edu-card">
+					<img src="img/format_edu/web.svg">
+					<span class="text-edu-card">12 вебинаров в месяц</span>
+				</div>
+				<div class="edu-card">
+					<img src="img/format_edu/dz.svg">
+					<span class="text-edu-card">Домашние работы</span>
+				</div>
+			</div>
+			<div class="card2">
+				<div class="edu-card">
+					<img src="img/format_edu/kim.svg">
+					<span class="text-edu-card">Пробники/КИМы</span>
+				</div>
+				<div class="edu-card">
+					<img src="img/format_edu/kr_work.svg">
+					<span class="text-edu-card">Контрольные работы</span>
+				</div>
+				<div class="edu-card">
+					<img src="img/format_edu/author_methodic.svg">
+					<span class="text-edu-card">Авторская методика</span>
+				</div>
+			</div>
+		</div>
+	 </div>
+    </section>
+    <section class="tarif">
+      <p class="main-head-text-tarif">Тарифы обучения</p>
+		<div class="tarif-info">
+			<div class="tarif-month">
+				<div class="month-color">
+					<p class="name-tarif blue">Месячный</p>
+					<p class="tarif-price">1500 ₽</p>
+				</div>
+				<div class="dop-info">
+					<ul>
+						<li>12 онлайн-занятий
+						<li>Домашние задания
+						<li>Конспекты и рабочие тетради
+						<li>Ключи к домашним заданиям
+						<li>Дружебный коллективчик
+						<li>Доступ к современной платформе
+					</ul>
+				</div>
+				<div class="select-tarif">
+					<a href="#" class="select-btn">Выбрать</a>
+				</div>
+			</div>
+			<div class="tarif-year">
+				<div class="promo-year-color">
+					<p class="promo-text">Выгодно</p>
+				</div>
+				<div class="year-color">
+					<p class="name-tarif yellow">Годовой</p>
+					<p class="tarif-price">18 000 ₽</p>
+				</div>
+				<div class="dop-info">
+					<ul>
+						<li>144 онлайн-занятия
+						<li>Домашние задания
+						<li>Конспекты и рабочие тетради
+						<li>Ключи к домашним заданиям
+						<li>Дружебный коллективчик
+						<li>Доступ к современной платформе
+					</ul>
+				</div>
+				<div class="select-tarif">
+					<a href="#" class="select-btn">Выбрать</a>
+				</div>				
+			</div>
+			<div class="tarif-pro">
+				<div class="pro-color">
+					<p class="name-tarif red">Продвинутый</p>
+					<p class="tarif-price">2000 ₽</p>
+				</div>
+				<div class="dop-info">
+					<ul>
+						<li>12 онлайн-занятий
+						<li>Домашние задания
+						<li>Система XP (геймификация)
+						<li>Конспекты и рабочие тетради
+						<li>Проверка ДЗ с обратной связью
+						<li>Дружебный коллективчик
+					</ul>
+				</div>
+				<div class="select-tarif">
+					<a href="#" class="select-btn">Выбрать</a>
+				</div>						
+			</div>
+		</div>
+    </section>
+	<section class="otzivy">
+		<p class="main-head-text-otz">Отзывы учеников</p>
+		<div class="otz-block">
+		<!-- 1 отзыв -->
+			<div class="otziv">
+				<div class="info-person">
+					<div class="avatar-fon">
+						<img class="avatar" src="img/ava.png" alt="Аватар">
+						<span class="name-person">Александр Львов</span>
+					</div>
+					<div class="ball-fon">
+						<span class="ball-person">85 баллов</span>
+					</div>
+				</div>
+				<div class="text-otz">
+					<span>
+					Топ за свои деньги. Хех. Отвечаю. Лучше вы не найдёте на просторах интернета.
+					Своим друзьям уже посоветовал вас.
+					</span>
+				</div>
+			</div>
+		<!-- 2 отзыв -->
+			<div class="otziv">
+				<div class="info-person">
+					<div class="avatar-fon">
+						<img class="avatar" src="img/ava.png" alt="Аватар">
+						<span class="name-person">Илья Петров</span>
+					</div>
+					<div class="ball-fon">
+						<span class="ball-person">90 баллов</span>
+					</div>
+				</div>
+				<div class="text-otz">
+					<span>
+						Это что-то нереальное. Да, было пару косяков, но на фоне всего курса они 
+						незначительны. Советую, очень интересно и понятно объясняют!
+					</span>
+				</div>
+			</div>
+	<!-- 3 отзыв -->			
+			<div class="otziv">
+				<div class="info-person">
+					<div class="avatar-fon">
+						<img class="avatar" src="img/ava.png" alt="Аватар">
+						<span class="name-person">Михаил Львов</span>
+					</div>
+					<div class="ball-fon">
+						<span class="ball-person">88 баллов</span>
+					</div>
+				</div>
+				<div class="text-otz">
+					<span>
+					Топ за свои деньги. Хех. Отвечаю. Лучше вы не найдёте на просторах интернета.
+					Своим друзьям уже посоветовал вас.
+					</span>
+				</div>
+			</div>
+	<!-- 4 отзыв -->			
+			<div class="otziv">
+				<div class="info-person">
+					<div class="avatar-fon">
+						<img class="avatar" src="img/ava.png" alt="Аватар">
+						<span class="name-person">Павел Ильясов</span>
+					</div>
+					<div class="ball-fon">
+						<span class="ball-person">85 баллов</span>
+					</div>
+				</div>
+				<div class="text-otz">
+					<span>
+						Это что-то нереальное. Да, было пару косяков, но на фоне всего курса они 
+						незначительны. Советую, очень интересно и понятно объясняют!
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="all-otz">
+			<a href="#" class="select-otz">Прочитать все отзывы</a>
+		</div>
+	</section>
+	<section class="promo-banner">
+		<p class="text-banner">Ещё не с нами, но хочешь начать учиться?<br>Дерзай!</p>
+		<a href="#" class="promo-banner-btn">Начать учиться!</a>
+	</section>
+    </main>
+	<footer>
+		<div class="footer-nav">
+			<div class="logo-footer">
+				<span>EGEWORLD</span>
+			</div>
+			<div class="home">
+				<span class="head-nav">Главная</span>
+				<span class="text-nav">Что вас ждёт</span>
+				<span class="text-nav">Курсы</span>
+				<span class="text-nav">Учителя</span>
+				<span class="text-nav">О нас</span>
+			</div>
+			<div class="info">
+				<span class="head-nav">Подробнее</span>
+				<span class="text-nav">Формат обучения</span>
+				<span class="text-nav">Отзывы</span>
+				<span class="text-nav">Все курсы</span>
+			</div>
+			<div class="contacts">
+				<span class="head-nav">Контакты</span>
+				<span class="text-nav">E-mail: vypiem@inbox.ru</span>
+				<span class="text-nav">Мы в соцсетях:</span>
+				<a href="https://vk.com" class="vk-btn">VK</a>
+			</div>			
+		</div>
+		<div class="create">
+			<hr class="line">	
+			<p class="underline-text">Created by kartoshka. Designed by pomidoro.</p>
+		</div>
+	</footer>
+	</div>
+  </body>
+</html>
